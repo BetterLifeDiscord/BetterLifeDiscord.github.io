@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+body {
+    font-family: 'Open Sans';
+    background: #1D1E28;
+}
+
+.circle {
+    justify-content: center;
+    align-items: center;
+    margin: 300px auto 0;
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    border: 8px solid transparent;
+    border-top-color: #AD91FF;
+    border-bottom-color: #AD91FF;
+    animation: spin 1s ease-in-out infinite;
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
